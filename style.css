@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:ital,wght@1,300&family=Neucha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-family: "Neucha", cursive;
+}
+
+.nav > ul {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background: hsla(0, 0%, 100%, 0.286);
+  box-shadow: 0px 8px 30px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 8px 31px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 8px 31px -11px rgba(0, 0, 0, 0.75);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.list > li {
+  padding: 30px 10px;
+}
+
+.list > li > a {
+  text-decoration: none;
+  color: #1a1a1a;
+  padding: 20px 60px;
+  font-size: 20px;
+  margin: 0 -10px 0 -10px;
+  border-radius: 10px;
+}
+
+.list > li > a:hover {
+  color: white;
+  background-color: #1a1a1a;
+  transition: all 1.2s;
+}
+
+.container {
+  margin: 20px 100px 0px 100px;
+}
+
+/* .pagination {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination > a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.pagination > a:hover {
+  color: white;
+  background-color: #1a1a1a;
+  transition: 1s;
+} */
+
+.page-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightseagreen;
+}
+
+.page-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightcoral;
+}
+
+.page-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+.page-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightskyblue;
+}
+
+.page-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightpink;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1:hover {
+  font-size: 55px;
+  transition: 0.35s;
+  cursor: pointer;
+  background: #cf36ab;
+  background: -webkit-linear-gradient(to right, #cf36ab 40%, #483ecf 75%);
+  background: -moz-linear-gradient(to right, #cf36ab 40%, #483ecf 75%);
+  background: linear-gradient(to right, #cf36ab 40%, #483ecf 75%);
+  -webkit-background-clip: text;
+  background-clip: text; /*Add this to fix the warning*/
+  -webkit-text-fill-color: transparent;
+}
+
+.puter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.txt {
+  text-decoration: none;
+}
+
+.txt:hover {
+  color: palevioletred;
+}
